@@ -1,6 +1,6 @@
 Reproducible Research: Peer Assessment 1
 ==========================================
-Created by Donna-Kay Smith on October 19, 2014
+Created by dk-lisa on October 19, 2014
 
 ### Basic settings
 ```{r}
