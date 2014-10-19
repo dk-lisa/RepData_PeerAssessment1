@@ -65,7 +65,7 @@ sum(is.na(data))
 
 * Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
-The strategy employed was to use the mean for that 5-minute interval to fill each NA value in the steps column.
+My strategy is to use the mean for that 5-minute interval to fill each NA value in the steps column.
 
 * Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
@@ -112,7 +112,7 @@ oldMedian <- median(totalSteps)
 newMean - oldMean
 newMedian - oldMedian
 ```
-After imputing the missing data, the new mean of total steps taken per day is the same as that of the old mean; the new median of total steps taken per day is greater than that of the old median.
+So, after imputing the missing data, the new mean of total steps taken per day is the same as that of the old mean; the new median of total steps taken per day is greater than that of the old median.
 
 ### Are there differences in activity patterns between weekdays and weekends?
 
